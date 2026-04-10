@@ -12,7 +12,7 @@
 ![PrismJS](https://img.shields.io/badge/PrismJS-1.30-5C2D91)
 ![JWebMP](https://img.shields.io/badge/JWebMP-2.0-0A7)
 
-PrismJS syntax highlighting integration for JWebMP with Angular 20. Wraps [@ngx-prism/core](https://github.com/ngx-prism/core) providing AOT-compatible, high-performance code highlighting with OnPush change detection.
+PrismJS syntax highlighting integration for JWebMP with Angular 21. Wraps [@ngx-prism/core](https://github.com/ngx-prism/core) providing AOT-compatible, high-performance code highlighting with OnPush change detection.
 
 Built on [@ngx-prism/core](https://github.com/ngx-prism/core) · [PrismJS](https://prismjs.com/) · [JWebMP Core](https://jwebmp.com/) · JPMS module `com.jwebmp.plugins.prism` · Java 25+
 
@@ -41,7 +41,7 @@ Built on [@ngx-prism/core](https://github.com/ngx-prism/core) · [PrismJS](https
 <dependency>
     <groupId>com.jwebmp.plugins</groupId>
     <artifactId>prism</artifactId>
-    <version>2.0.0-SNAPSHOT</version>
+    <version>2.0.0-RC1</version>
 </dependency>
 ```
 
