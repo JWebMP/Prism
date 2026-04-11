@@ -41,7 +41,7 @@ Built on [@ngx-prism/core](https://github.com/ngx-prism/core) · [PrismJS](https
 <dependency>
     <groupId>com.jwebmp.plugins</groupId>
     <artifactId>prism</artifactId>
-    <version>2.0.0-RC1</version>
+    <version>2.0.0-RC2</version>
 </dependency>
 ```
 
