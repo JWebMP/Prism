@@ -15,8 +15,8 @@ module com.jwebmp.plugins.prism {
     provides com.jwebmp.core.services.IPageConfigurator with com.jwebmp.plugins.prism.config.PrismPageConfigurator;
     provides IGuiceScanModuleInclusions with PrismInclusionModule;
 
-    opens com.jwebmp.plugins.prism to com.fasterxml.jackson.databind, com.google.guice, com.jwebmp.core, com.jwebmp.core.angular;
-    opens com.jwebmp.plugins.prism.config to com.fasterxml.jackson.databind, com.google.guice, com.jwebmp.core, com.jwebmp.core.angular;
-    opens com.jwebmp.plugins.prism.implementations to com.fasterxml.jackson.databind, com.google.guice, com.jwebmp.core, com.jwebmp.core.angular;
+    opens com.jwebmp.plugins.prism to tools.jackson.databind, com.google.guice, com.jwebmp.core, com.jwebmp.core.angular;
+    opens com.jwebmp.plugins.prism.config to tools.jackson.databind, com.google.guice, com.jwebmp.core, com.jwebmp.core.angular;
+    opens com.jwebmp.plugins.prism.implementations to tools.jackson.databind, com.google.guice, com.jwebmp.core, com.jwebmp.core.angular;
 }
 
